@@ -1,10 +1,10 @@
-import { PruebaCarteleraPage } from './app.po';
+import { ProyectoAngularPage } from './app.po';
 
-describe('prueba-cartelera App', () => {
-  let page: PruebaCarteleraPage;
+describe('proyecto-angular App', function() {
+  let page: ProyectoAngularPage;
 
   beforeEach(() => {
-    page = new PruebaCarteleraPage();
+    page = new ProyectoAngularPage();
   });
 
   it('should display message saying app works', () => {
